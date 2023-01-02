@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+    body {
+        background-color: rgb(150, 150, 150);
+    }    
+    header {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffffff;           
+            border-radius: 20px;
+            border-style: outset; 
+            border-color: #419b1d;        
+            display: inline-block;
+            padding: 0px;
+        }
+
+        #tituloprincipal {
+            text-align: center;
+            font-family:'indie flower';
+        }
+
+        .subtitulos {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-style: italic;
+            font-weight: bolder;
+        }
+
+        a {
+            font-style: italic;
+            text-decoration: none;
+            color: #000000;
+            width: 70px;
+            height: 25px;
+            display: inline-block;
+            font: bolder;
+            align-items: center;
+                
+        }
+        
+        .link:hover {
+            background-image: linear-gradient(to left, #419b1d, #2a492b);
+            transition: 700ms;
+            color: #ffffff;
+            border-radius: 20px;
+            
+        }
+        #noticias {
+            padding: 5px;
+            background-color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        main {
+            border-radius: 20px 15px;
+        }
+       footer{
+        text-align: center;
+        background-color: #000000;
+        color: #ffffff;
+        padding: 4px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+       }
+       
+       footer > p {
+        padding:0px;
+        margin:0px
+       }
+
+         
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="tituloprincipal">Familia Stifler</h1>
+        <nav>
+
+            <a class="link" href="#">Link</a>
+            <a class="link" href="#">Link</a>
+            <a class="link" href="#">Link</a>
+            <a class="link" href="#">Link</a>
+            <a class="link" href="#">Link</a>
+            
+        </nav>
+    </header>
+    <main>
+       <section id="assuntos">
+        <p>Esportes Politicas e Tecnologia</p>
+       </section>
+       <section id="noticias">
+            <article>
+                <h2 class="subtitulos">Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa placeat nemo distinctio nam sed velit beatae vitae quidem quam? Debitis officiis tempore reprehenderit! Similique magnam numquam, rem quam velit beatae?</p>
+                <aside>
+                    <p>Artigo escrito por Klebson Almeida Oliveira</p>
+                </aside>
+            </article>
+       </section>         
+    </main>
+    <footer>
+        <p>Desenvolvido por Klebson</p>
+    </footer>
+    
+</body>
+</html>

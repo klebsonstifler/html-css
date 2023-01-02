@@ -1,0 +1,103 @@
+@charset "UFT-8";
+@font-face {
+    font-family:"android";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+body{
+    background-color:#A7D0B2 ;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom,#35B858, #268540);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    padding-right: 9px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    letter-spacing: 0.25em;
+    background:var(--clr);   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: var(--clr);
+}
+
+main {
+    margin: auto;
+    width: min-content;
+    background-color: #fff;
+}
+
+main >h2 {
+    font-family: 'android';
+    color:#268540;
+    padding-left: 7px;
+    text-shadow: 3px 3px 3px #13442070;
+}
+
+main >p {
+    text-indent: 50px;
+    padding: 7px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.img {
+    text-align: center;
+    margin: 10px;
+}
+
+.video {
+    padding: 10px;
+    text-align: center;
+    background:#2C9949;
+}
+
+.extra {
+    margin: 10px;
+    background:#A7D0B2;
+    border-radius: 5px;
+
+}
+
+.extra >h2 {
+    background-color: #35B858;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 10px;
+}
+
+.extra > p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    margin: 4px;
+}
+
+.listafim {
+   list-style-image: url(imagens/green-ok-icon.png); 
+}
+
+footer {
+    background: #213827;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
