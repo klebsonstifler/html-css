@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'Cordel';
+    src: url(fontes/xilosa.ttf) format(truetype);
+    font-weight: normal;
+}
+:root {
+    --fonte1: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
+    --fonte2: 'xilosa', 'Arial';
+    --fonte3: 'Sriracha', 'cursive';
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    height: 200px;
+
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    font-size: 7vw;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+}
