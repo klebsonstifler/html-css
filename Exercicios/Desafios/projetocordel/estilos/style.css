@@ -64,6 +64,16 @@ section {
     background-color: transparent;
 }
 
+#img001 {
+    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#img002 {
+    background: black url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
 #conteudo {
     background-color: #000000ab;
     color: #fff;
