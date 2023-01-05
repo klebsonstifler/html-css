@@ -1,32 +1,82 @@
 @charset "UTF-8";
-@font-face{
-    font-family: 'Cordel';
-    src: url(fontes/xilosa.ttf) format(truetype);
-    font-weight: normal;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
 }
 :root {
     --fonte1: 'Verdana', 'Geneva', 'Tahoma', 'sans-serif';
-    --fonte2: 'xilosa', 'Arial';
+    --fonte2: 'Passion One','Courier New', Courier, monospace;
     --fonte3: 'Sriracha', 'cursive';
 }
 
 body {
-    height: 100vh;
-    margin: 0px;
+    min-height: 100vh;
     background-color: darkgrey;
+    
 }
 
 header{
     background-color: black;
-    height: 200px;
-
+    height: 230px;
 }
 
-header h1 {
-    font-family: var(--fonte2);
-    font-size: 7vw;
+header > h1 {  
+    font: 10vw var(--fonte2); 
+    font-variant: small-caps;
+    letter-spacing:4px ;
     color: #fff;
-    margin: 0px;
     text-align: center;
     padding-top: 50px;
 }
+
+header > p {
+    text-align: center;
+    font-family: var(--fonte1);
+    color: #fff;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main {
+    background-color: lightgray;
+}
+section {
+    font:bolder 3.5vw var(--fonte3);
+    padding: 30px 0px 30px 35px;
+    text-align: justify;
+    background-color: #fff;
+}
+
+.imagem {
+    background-color: transparent;
+}
+
+#conteudo {
+    background-color: #000000ab;
+    color: #fff;
+    width: 45vw;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    font: 1.7vw var(--fonte1);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
