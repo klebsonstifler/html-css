@@ -13,12 +13,6 @@
     --fonte3: 'Sriracha', 'cursive';
 }
 
-body {
-    min-height: 100vh;
-    background-color: darkgrey;
-    
-}
-
 header{
     background-color: black;
     height: 230px;
@@ -50,18 +44,11 @@ a:hover{
     text-decoration: underline;
 }
 
-main {
-    background-color: lightgray;
-}
 section {
     font:bolder 3.5vw var(--fonte3);
     padding: 30px 0px 30px 35px;
     text-align: justify;
     background-color: #fff;
-}
-
-.imagem {
-    background-color: transparent;
 }
 
 #img001 {
