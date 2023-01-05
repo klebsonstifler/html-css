@@ -65,13 +65,13 @@ section {
 }
 
 #img001 {
-    height: 110%;
+    height: 100%;
     background: black url(../imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
 #img002 {
-    height: 110%;
+    height: 100%;
     background: black url(../imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
 }
