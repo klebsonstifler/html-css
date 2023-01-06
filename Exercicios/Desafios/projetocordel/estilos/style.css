@@ -51,15 +51,20 @@ section {
     background-color: #fff;
 }
 
+section.imagem {
+    box-shadow: inset 6px 6px 13px 0px #000000a2;
+
+}
+
 #img001 {
     height: 100%;
-    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+    background: black url(../imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
 }
 
 #img002 {
     height: 100%;
-    background: black url(../imagens/background002.jpg) center center no-repeat fixed;
+    background: black url(../imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
 }
 
