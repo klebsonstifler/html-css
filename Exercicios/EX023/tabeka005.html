@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercio de Tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        th,td, caption {
+            border: 1px solid black;
+        }
+
+        .cnome, .cprofissao {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>laudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Torneiro Mec</td>
+        </tr>
+        <tr>
+            <td>Kennedy</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Dev Front-End</td>
+        </tr>
+        <tr>
+            <td>Daiane</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Atendente</td>
+        </tr>
+        <tr>
+            <td>Klebson</td>
+            <td>M</td>
+            <td>26</td>
+            <td>Dev Front-End</td>
+        </tr>
+        <tr>
+            <td>Micaela</td>
+            <td>F</td>
+            <td>21</td>
+            <td>Professora</td>
+        </tr>
+    </table>
+</body>
+</html>
