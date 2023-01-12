@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 97vh;
+    height: 90vh;
     background: url(../imagens/fundo-madeira.jpg) center center no-repeat fixed;
     background-size: cover;
 }
@@ -27,12 +27,18 @@ div > a > img { /*imagens do Menu de Navegação*/
     padding: 5px;
 }
 
-article img { /*moldura iphone*/
+#moldura {   
+    position: absolute;
     width: 250px;
+    left: 50vw;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
-#moldura {
+iframe {
     position: absolute;
+    width: 200px;
+    height: 350px;
     left: 50vw;
     top: 50%;
     transform: translate(-50%,-50%);
