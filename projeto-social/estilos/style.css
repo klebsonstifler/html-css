@@ -1,46 +1,41 @@
 @charset "UTF-8";
 
 * {
-    font-size: 1em;
     margin: 0px;
     padding: 0px;
 }
 
-body {
-    height: 90vh;
+html, body {
+    height: 100vh;
+    width: 100vw;
     background: url(../imagens/fundo-madeira.jpg) center center no-repeat fixed;
     background-size: cover;
 }
 
-nav { /*Menu de Navegação*/
-    text-align: right;
+body {
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center fixed;
+    background-size: cover;
 }
 
-div #menu { /*Menu de Navegação*/
+main {
+    position: relative;
+    height: 100vh; 
+}
+
+section#telefone {
     position: absolute;
-    width: 65px;
-}
-
-div > a > img { /*imagens do Menu de Navegação*/
-    width: 60px;
-    border-radius: 50px;
-    padding: 5px;
-}
-
-#moldura {  
-    position: absolute;
-    width: 35vh;
-    left: 50vw;
     top: 50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
-iframe {
-    position: absolute;
-    width: 29.5vh;
-    height: 61.2vh;
-    left: 50vw;
-    top: 50%;
-    transform: translate(-50%,-50%);
+iframe#tela {
+    position: relative;
+    top: 81px;
+    left: 22px;
+    width:268px ;
+    height:471px ;
 }
-
