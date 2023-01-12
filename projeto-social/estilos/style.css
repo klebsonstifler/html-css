@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 97vh;
+    background: url(../imagens/fundo-madeira.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+nav { /*Menu de Navegação*/
+    text-align: right;
+}
+
+div #menu { /*Menu de Navegação*/
+    position: absolute;
+    width: 8vw;
+}
+
+div > a > img { /*imagens do Menu de Navegação*/
+    width: 60px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+article img { /*moldura iphone*/
+    width: 25vw;
+}
+
+#moldura {
+    position: absolute;
+    left: 50vw;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#conteudo { /* div do iframe*/
+    position: absolute;
+    top: 50%;
+    left: 1.80vw;
+    transform: translateY(-49.5%);
+}
+
+iframe {
+
+    width: 21.44vw;
+    height: 63.2vh;
+    border-radius: 2px;   
+}
+
+#contiframe {
+    width: 10;
+}
