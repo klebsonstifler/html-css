@@ -29,15 +29,16 @@ section#telefone {
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-
+    background: url('../imagens/frame-iphone250.png') no-repeat;
 }
 
 iframe#tela {
     position: relative;
-    top: 81px;
-    left: 22px;
-    width:268px ;
-    height:471px ;
+    top: 65px;
+    left: 18px;
+    width:214.5px ;
+    height:379.5px ;
+    border-radius: 2px;
 }
 
 section#redes-sociais {
