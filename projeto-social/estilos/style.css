@@ -37,21 +37,3 @@ article img { /*moldura iphone*/
     top: 50%;
     transform: translate(-50%,-50%);
 }
-
-#conteudo { /* div do iframe*/
-    position: absolute;
-    top: 50%;
-    left: 1.80vw;
-    transform: translateY(-49.5%);
-}
-
-iframe {
-
-    width: 21.44vw;
-    height: 63.2vh;
-    border-radius: 2px;   
-}
-
-#contiframe {
-    width: 10;
-}
