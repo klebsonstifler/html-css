@@ -39,3 +39,45 @@ iframe#tela {
     width:268px ;
     height:471px ;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais > a > img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #0000007c;
+}
+
+section#redes-sociais img:hover {
+    cursor: pointer;
+    width: 60px;
+    margin-right: 20px;
+    transition: 0.5s;
+    
+}
+section #sombrahome:hover {
+    box-shadow:1px 1px 70px 10px #91909096;
+}
+
+section #sombrayoutube:hover {
+    box-shadow:1px 1px 70px 10px #c50c0c96;
+}
+
+section #sombragithub:hover {
+    box-shadow:1px 1px 70px 10px #0cc52b96;
+}
+
+section #sombrainstagram:hover {
+    box-shadow:1px 1px 70px 10px #e92a8396;
+}
+
+section #sombratwitter:hover {
+    box-shadow:1px 1px 70px 10px #21aae996;
+}
+
+section #sombrafacebook:hover {
+    box-shadow:1px 1px 70px 10px #0d47c496;
+}
