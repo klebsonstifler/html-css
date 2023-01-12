@@ -29,7 +29,7 @@ div > a > img { /*imagens do Menu de Navegação*/
 
 #moldura {   
     position: absolute;
-    width: 250px;
+    width: 25vw;
     left: 50vw;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -37,9 +37,10 @@ div > a > img { /*imagens do Menu de Navegação*/
 
 iframe {
     position: absolute;
-    width: 200px;
-    height: 350px;
+    width: 21.7vw;
+    height: 38.5vw;
     left: 50vw;
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
