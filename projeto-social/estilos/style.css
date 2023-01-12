@@ -18,7 +18,7 @@ nav { /*Menu de Navegação*/
 
 div #menu { /*Menu de Navegação*/
     position: absolute;
-    width: 8vw;
+    width: 65px;
 }
 
 div > a > img { /*imagens do Menu de Navegação*/
@@ -28,7 +28,7 @@ div > a > img { /*imagens do Menu de Navegação*/
 }
 
 article img { /*moldura iphone*/
-    width: 25vw;
+    width: 250px;
 }
 
 #moldura {
