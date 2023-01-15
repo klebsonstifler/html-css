@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color1: #60a6a1;
+    --color2: #8FE7EB;
+    --color3: #4BBCBF;
+    --color4: #D9E693;
+    --color5: #C9E351;
+}
+
+body {
+    height: 100vh;
+    background: url('./imagens/background.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+.grid-container{
+    display: grid;
+    gap: 0;
+    position: absolute;
+    width: 60vw;
+    height: 80vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.titulo {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    padding: 30px 0px 0px 30px;     
+}
+
+.titulo >h2 {
+    font: bold 3vw "Courier New', Courier, monospace";
+    color: var(--color1);
+
+}
+
+.preço {
+    background-color: var(--color3);
+    grid-column: 1;
+    grid-row: 2;    
+}
+
+.descriçao {
+    background-color: var(--color2);
+    grid-column: 2;
+    grid-row: 2;  
+}
