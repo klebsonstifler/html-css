@@ -25,7 +25,7 @@ body {
     gap: 0;
     position: absolute;
     width: 60vw;
-    height: 50vw;
+    height: 80vh;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -41,13 +41,12 @@ body {
 .titulo >h2 {
     font: bold 3vw "Courier New, Courier, monospace";
     color: var(--color1);
-    margin-bottom: 1.5vw;
 }
 
 .titulo >h3 {
     font: bold 2vw "Arial, Helvetica, sans-serif";
     color: var(--color4);
-    margin-bottom: 10px;
+    padding-top: 1.5vw;
 }
 
 .titulo >p {
