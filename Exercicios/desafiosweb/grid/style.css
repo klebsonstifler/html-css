@@ -62,7 +62,9 @@ body {
 }
 
 .preço >h2 {
-    padding: 10px;
+    padding: 1vw 0vw 0vw 2vw;
+    font: bolder 2.4vw "Arial, Helvetica, sans-serif";
+    color:#ffffff
 }
 
 .descriçao {
