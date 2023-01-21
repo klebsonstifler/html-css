@@ -50,7 +50,7 @@ body {
 }
 
 .titulo >p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: 2vw "Verdana, Geneva, Tahoma, sans-serif";
     text-align: justify;
     margin-right: 6vw;
 }
