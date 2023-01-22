@@ -40,19 +40,19 @@ body {
 .titulo >h2 {
     font: bold 30px "Courier New, Courier, monospace";
     color: var(--color1);
-    padding: 1.5vw 0vw 0vw 2vw;
+    padding: 10px 0px 0px 20px;
 }
 
 .titulo >h3 {
     font: bold 20px "Arial, Helvetica, sans-serif";
     color: var(--color4);
-    padding: 1.5vw 0vw 0vw 2vw;
+    padding: 5px 0px 0px 20px;
 }
 
 .titulo >p {
     font: 17px "Verdana, Geneva, Tahoma, sans-serif";
     text-align: justify;
-    padding: 1vw 3vw 0vw 2vw;
+    padding: 2px 20px 10px 20px;
 }
 
 .preço {
@@ -61,7 +61,7 @@ body {
 }
 
 .preço >h2 {
-    padding: 1vw 0vw 0vw 2vw;
+    padding: 10px 0px 0px 20px;
     font: bolder 25px "Arial, Helvetica, sans-serif";
     color:#ffffff
 }
@@ -70,7 +70,7 @@ body {
     font: 20px "Verdana, Geneva, Tahoma, sans-serif";
     color: #ffffff;
     text-align: justify;
-    padding: 1vw 3vw 0vw 2vw;
+    padding: 5px 0px 0px 20px;
 }
 
 #preço {
@@ -82,9 +82,12 @@ body {
 }
 
 #registro {
-    display: inline;
+    position: absolute;
     text-align: center;
     border-radius: 7px;
+    left: 25%;
+    top: 85%;
+    transform: translate(-50%);
 }
 
 button> a {
@@ -97,14 +100,47 @@ button> a {
 }
 
 .descriçao > h2 {
-    padding: 1vw 0vw 0vw 2vw;
+    padding: 5px 0px 0px 20px;
     font: bolder 25px "Arial, Helvetica, sans-serif";
     color:#ffffff
 }
 
 .descriçao > ul {
     list-style-position: inside;
-    padding: 1vw 0vw 0vw 2vw;
+    padding: 5px 0px 0px 20px;
     font: bolder 17px "Arial, Helvetica, sans-serif";
     color: #ffffff;
+}
+
+@media only screen and (max-width:650px) {
+.grid-container{
+    width: 80vw;
+    grid-template-columns: 1;
+    grid-template-rows: 3;   
+}
+
+.titulo {
+    grid-column: 1;
+    grid-row: 1;
+    height: 33vh;   
+}
+
+.preço {
+    grid-column: 1;
+    grid-row: 3;
+    height: 33vh;
+}
+
+#registro {
+    position: absolute;
+    left: 50%;
+    top: 91%;
+}
+
+.descriçao {
+    grid-column: 1;
+    grid-row: 2;
+    height: 33vh;
+}
+
 }
