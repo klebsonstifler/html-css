@@ -25,7 +25,6 @@ body {
     gap: 0;
     position: absolute;
     width: 60vw;
-    height: 80vh;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -38,19 +37,19 @@ body {
 }
 
 .titulo >h2 {
-    font: bold 3vw "Courier New, Courier, monospace";
+    font: bold 30px "Courier New, Courier, monospace";
     color: var(--color1);
     padding: 1.5vw 0vw 0vw 2vw;
 }
 
 .titulo >h3 {
-    font: bold 2vw "Arial, Helvetica, sans-serif";
+    font: bold 20px "Arial, Helvetica, sans-serif";
     color: var(--color4);
     padding: 1.5vw 0vw 0vw 2vw;
 }
 
 .titulo >p {
-    font: 2vw "Verdana, Geneva, Tahoma, sans-serif";
+    font: 17px "Verdana, Geneva, Tahoma, sans-serif";
     text-align: justify;
     padding: 1vw 3vw 0vw 2vw;
 }
@@ -63,19 +62,19 @@ body {
 
 .preço >h2 {
     padding: 1vw 0vw 0vw 2vw;
-    font: bolder 2.4vw "Arial, Helvetica, sans-serif";
+    font: bolder 25px "Arial, Helvetica, sans-serif";
     color:#ffffff
 }
 
 .preço > p {
-    font: 2vw "Verdana, Geneva, Tahoma, sans-serif";
+    font: 20px "Verdana, Geneva, Tahoma, sans-serif";
     color: #ffffff;
     text-align: justify;
     padding: 1vw 3vw 0vw 2vw;
 }
 
 #preço {
-    font: bolder 2.4vw "Arial, Helvetica, sans-serif";
+    font: bolder 31px "Arial, Helvetica, sans-serif";
 }
 
 #destaque {
@@ -90,7 +89,7 @@ body {
 
 button> a {
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 25px;
 }
 .descriçao {
     background-color: var(--color2);
@@ -100,13 +99,13 @@ button> a {
 
 .descriçao > h2 {
     padding: 1vw 0vw 0vw 2vw;
-    font: bolder 2.4vw "Arial, Helvetica, sans-serif";
+    font: bolder 25px "Arial, Helvetica, sans-serif";
     color:#ffffff
 }
 
 .descriçao > ul {
     list-style-position: inside;
     padding: 1vw 0vw 0vw 2vw;
-    font: bolder 1.5vw "Arial, Helvetica, sans-serif";
+    font: bolder 17px "Arial, Helvetica, sans-serif";
     color: #ffffff;
 }
