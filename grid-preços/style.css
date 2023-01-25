@@ -134,9 +134,9 @@ button :hover {
     color: var(--color6);
 }
 
-@media only screen and (max-width:730px) {
+@media only screen and (max-width:650px) {
 .grid-container{
-    width: 80vw;
+    width: 70vw;
     grid-template-columns: 1;
     grid-template-rows: 3;   
 }
@@ -166,17 +166,36 @@ button :hover {
 }
 
 .titulo >h2 {
-    font-size: 20px;
+    font-size: 5vw;
 }
 
 .titulo > h3 {
-    font-size: 17px;
+    font-size: 3.2vw;
 }
 .titulo > p {
-    font-size: 16px;
+    font-size: 3vw;
 }
 
 button > a:hover {
-    font-size: 20px;
+    font-size: 5vw;
+}
+
+.preço >h2 {
+    font-size: 5vw;
+}
+
+.preço > h3 {
+    font-size: 3.2vw;
+}
+.preço > p {
+    font-size: 3vw;
+}
+
+.descriçao >h2{
+    font-size: 5vw;
+}
+
+.descriçao >ul {
+    font-size: 3vw;
 }
 }
