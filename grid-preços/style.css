@@ -40,23 +40,23 @@ body {
 }
 
 .titulo >h2 {
-    font: bold 30px "Courier New, Courier, monospace";
+    font: bold 3.3vw "Courier New, Courier, monospace";
     color: var(--color1);
-    padding: 10px 0px 0px 20px;
+    padding: 1.5vw 0 0 1.5vw;
     text-shadow: 1px 1px 1px #528a86ec;
 }
 
 .titulo >h3 {
-    font: bold 20px "Arial, Helvetica, sans-serif";
+    font: bold 2vw "Arial, Helvetica, sans-serif";
     color: var(--color4);
-    padding: 5px 0px 0px 20px;
+    padding: 0.5vw 0 0 1.5vw;
     text-shadow: 1px 1px 1px #becf5a98;
 }
 
 .titulo >p {
-    font: 17px "Verdana, Geneva, Tahoma, sans-serif";
+    font: 1.8vw "Verdana, Geneva, Tahoma, sans-serif";
     text-align: justify;
-    padding: 2px 20px 10px 20px;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
 }
 
 .preço {
@@ -65,20 +65,20 @@ body {
 }
 
 .preço >h2 {
-    padding: 10px 0px 0px 20px;
-    font: bolder 25px "Arial, Helvetica, sans-serif";
+    padding: 1vw 0 0 1.5vw;
+    font: bolder 2.5vw "Arial, Helvetica, sans-serif";
     color:#ffffff
 }
 
 .preço > p {
-    font: 20px "Verdana, Geneva, Tahoma, sans-serif";
+    font: 2vw "Verdana, Geneva, Tahoma, sans-serif";
     color: #ffffff;
     text-align: justify;
-    padding: 5px 0px 0px 20px;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
 }
 
 #preço {
-    font: bolder 31px "Arial, Helvetica, sans-serif";
+    font: bolder 3.2vw "Arial, Helvetica, sans-serif";
 }
 
 #destaque {
@@ -90,7 +90,7 @@ body {
     text-align: center;
     border-radius: 7px;
     left: 25%;
-    top: 85%;
+    top: 87%;
     transform: translate(-50%);
 }
 
@@ -102,7 +102,7 @@ button {
 
 button> a {
     text-decoration: none;
-    font: 25px "Verdana, Geneva, Tahoma, sans-serif";
+    font: 2.3vw "Verdana, Geneva, Tahoma, sans-serif";
     padding: 5px;
     color: #ffffff;
     
@@ -111,7 +111,7 @@ button> a {
 button :hover {
     background-color: var(--color5);
     border-radius: 7px;
-    font-size: 27px;
+    font-size: 2.5vw;
     color:var(--color4);
     transition: 0.2s;
 
@@ -122,14 +122,14 @@ button :hover {
 }
 
 .descriçao > h2 {
-    padding: 5px 0px 0px 20px;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
     font: bolder 25px "Arial, Helvetica, sans-serif";
     color:var(--color6)
 }
 
 .descriçao > ul {
     list-style-position: inside;
-    padding: 5px 0px 5px 20px;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
     font: bolder 17px "Arial, Helvetica, sans-serif";
     color: var(--color6);
 }
