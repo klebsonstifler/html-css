@@ -176,8 +176,8 @@ button :hover {
     font-size: 3vw;
 }
 
-button {
-    font-size:4vw;
+button >a{
+    font-size:4.3vw;
 }
 button > a:hover {
     font-size: 5vw;
