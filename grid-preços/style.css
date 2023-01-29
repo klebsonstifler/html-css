@@ -144,18 +144,18 @@ button :hover {
 .titulo {
     grid-column: 1;
     grid-row: 1;
-    height: 30vh;   
+    height: auto;   
 }
 
 .preço {
     grid-column: 1;
     grid-row: 3;
-    height: 30vh;
+    height: auto;
 }
 
 #registro {
     position: absolute;
-    left: 50%;
+    left: 66%;
     top: 91%;
 }
 
