@@ -1,1 +1,37 @@
 @charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+:root {
+    --color1:#204473;
+    --color2:#607EA6;
+    --color3:#ACCAF2;
+    --color4:#D0ECF2;
+    --color5:#7E8C69;
+
+    --font1:'Roboto Mono', monospace;
+    --font2:'Antic Slab', serif;
+    --fontnome:'Bebas Neue', cursive;
+
+}
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+#nome >h1 {
+    font-family: var(--fontnome);
+    font-size: 3.5rem;
+    letter-spacing: 0.4rem;
+    color: var(--color1);
+    text-shadow: 2px 2px 10px var(--color2);    
+}
+
+h2 {
+    font-family: var(--font1);
+    font-weight: bolder;
+    color: var(--color2);
+    text-shadow: 1px 1px 1px var(--color3);
+}
