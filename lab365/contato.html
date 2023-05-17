@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section>
+            <img src="img/logo.png" alt="Logo da empresa XPTO" width="200px">
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h1> Formulário de Contato</h1>
+            <p>Preencha os dados abaixo e envie uma mensagem de contato</p>
+
+            <form action="cadastro.php" method="get">
+                <fieldset>
+                    <legend>Dados do Contato</legend>
+                        <label>Nome</label><br>
+                        <input type="text" name="nome" id="nome"><br><br>
+
+                        <label>Data de nascimento</label><br>
+                        <input type="date" name="nasc" id="nasc"><br><br>
+
+                        <label>Sexo</label><br>
+                        <input type="radio" name="sexo" id="masc">Masculino
+                        <input type="radio" name="sexo" id="fem"> Feminino <br><br>
+                
+                        <label>Endereço</label><br>
+                        <input type="text" name="endereco" id="endereco"><br><br>
+                
+                        <label>Estado</label><br>
+                        <select name="estado" id="estado">
+                            <option value="São Paulo">São Paulo</option>
+                        </select> <br><br>
+                    
+                        <label>Cidade</label><br>
+                        <select name="cidade" id="cidade">
+                            <option value="Barrinha">Barrinha</option>
+                        </select> <br><br>
+                
+                        <label>Celular</label><br>
+                        <input type="number" name="tel" id="tel"> <br><br>
+                
+                        <label>E-mail</label><br>
+                        <input type="email" name="email" id="email" > <br><br>
+                
+                        <label>Áreas de Interesse</label> <br>
+                        <input type="checkbox" name="html" id="html">HTML
+                        <input type="checkbox" name="css" id="css">CSS
+                        <input type="checkbox" name="js" id="js">JavaScript
+                        <br><br>
+
+                        <label>Mensagem</label><br>
+                        <textarea name="msg" id="msg" cols="30" rows="6"></textarea> <br><br>
+
+                        <input type="submit" value="Enviar" id="enviar">
+                </fieldset>     
+            </form>
+        </section>
+        <footer>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/logo-insta.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/logo-facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/logo-twitter.png" alt="Twitter">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
